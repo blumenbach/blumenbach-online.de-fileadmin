@@ -1,0 +1,217 @@
+/*------------------ standard aufbau -----------------------------*/
+* {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+body {
+	margin: 0px;
+	color: #283253;
+	font-family: 'Gill Sans', Arial, Helvetica, sans-serif;
+}
+p {
+	line-height: 1.5em;
+}
+img {
+	border: 0px;
+}
+br {
+	line-height: 7px;
+}
+ul {
+	/*list-style-type: none;
+*/
+	margin-left: 15px;
+	line-height: 17px;
+	padding: 5px;
+}
+/*------------------ Footer -----------------------------*/
+#footer {
+	width: 1000px;
+	height: 40px;
+	#background-color: #163776;
+	background-image:url(/fileadmin/Blumenbach/gfx/JFBlumenbach/footer_background.jpg); background-repeat:repeat-x
+}
+#footer-left {
+	float: left;
+	width: 50%;
+	padding-top: 13px;
+	padding-left: 12px;
+	text-align: left;
+}
+#footer-right {
+	padding-top: 13px;
+	padding-right: 12px;
+	text-align: right;
+}
+/*------------------------- Links allgemein -------------------------------------*/
+a {
+	/*border-bottom: 1px dotted #283253;
+*/
+	text-decoration: none;
+	color: #283253;
+}
+a:hover {
+	text-decoration: none;
+	border-bottom: 1px solid #515151;
+	color: #595959;
+}
+.internal-link {
+	color: #283253;
+	border-bottom: 1px dotted #283253;
+}
+.external-link-new-window {
+	color: #283253;
+	text-decoration: underline;
+}
+
+#contentarea {
+	padding: 0px;
+	padding-top: 25px;
+	padding-left: 25px;
+	margin: 0px;
+	margin-top: -15px;
+	float: left;
+	width: 720px;
+}
+/*------------------ Navi Links-----------------------------*/
+#naviarea1 {
+	border: 1px solid #7B6534;
+	height: 99%;
+	width: 230px;
+}
+/*------------------ Breadcrumb-----------------------------*/
+#navibreadcrumb a {
+	font-size: 11px;
+	color: white;
+	border-bottom: 0px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#navibreadcrumb a:hover {
+	font-size: 11px;
+	color: white;
+	text-decoration: underline;
+	border-bottom: 0px;
+}
+#navibreadcrumb {
+	font-size: 11px;
+	color: white;
+	font-weight: normal;
+	text-decoration: none;
+	border-bottom: 0px;
+}
+/*------------------ Form Styles (inputboxen,etc)-----------------------------*/
+input, select, textarea {
+	border: 1px solid #969ba4;
+	background-color: #ffffff;
+	color: #283253;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+form input text {
+	width: 150px;
+	border: 1px solid black;
+	height: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 11px;
+	margin: 2px;
+}
+form input file {
+	width: 150px;
+	border: 1px solid black;
+	height: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 11px;
+	margin: 2px;
+}
+table, tr, td {
+	font-family: 'Gill Sans', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	line-height: 16px;
+	color: #283253;
+	overflow: visible;
+	font-size: 12px;
+	background-color: #F5F5F5;
+}
+/*######## Navigation links ###########*/
+div#navelel1 {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-left: -1px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	padding: 1px;
+	padding-top: 8px;
+	padding-right: 1px;
+	padding-left: 10px;
+	width: 219px;
+	height: 22px;
+	text-align: left;
+	font-weight: bold;
+	/*border: 1px solid #909DB0;
+*/
+	border-left: 1px solid #7B6534;
+	border-right: 1px solid #7B6534;
+}
+div#navelel1:first-child {
+	margin-top: 22px;
+}
+div#navelel2 {
+	padding-left: 25px;
+	margin-top: 0px;
+	margin-left: -1px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	padding-right: 1px;
+	width: 204px;
+	height: 17px;
+	text-align: left;
+	/*border: 1px solid #909DB0;
+*/
+	border-left: 1px solid #7B6534;
+	border-right: 1px solid #7B6534;
+}
+a#navilink1 {
+	color: #6B4D0C;
+	font-size: 1.3em;
+	font-family: 'Gill Sans', Arial, Helvetica, sans-serif;
+}
+a#navilink2 {
+	color: #6B4D0C;
+	font-size: 1.1em;
+	font-family: 'Gill Sans', Arial, Helvetica, sans-serif;
+}
+a#navilink1:visited {
+	color: #6B4D0C;
+}
+a#navilink1:hover {
+	color: #C8A565;
+}
+#nav2act a {
+	color: #C8A565;
+}
+#nav1act div#navelel1 {
+	color: #C8A565;
+}
+
+
+
+/******** fuer Einbau von Bildern mit Typo-HTMLArea ********/
+.csc-textpic-image {
+	border: 1px solid #7B6534; 
+	background: white none repeat scroll 0% 0%; 
+	float: left; 
+	margin-top: 2px; 
+	margin-right: 15px; 
+	margin-bottom: 5px; 
+	padding: 2px;
+	line-height: 12px; 
+	-moz-background-clip: border; 
+	-moz-background-origin: padding; 
+	-moz-background-inline-policy: continuous;
+}

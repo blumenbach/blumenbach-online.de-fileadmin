@@ -1,0 +1,66 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+
+
+</head>
+<body>
+
+<table style="border: 1px solid black" cellpadding="2" cellpadding="2">
+  <tr><td>
+      <img src="/fileadmin/Blumenbach/gfx/JFBlumenbach/BB-online_Bannerentwurf_Ammonit_1000_120.jpg">      
+      
+      
+      </td>
+  </tr>
+  <tr>
+    <td valign="top"> <div id="top"></div>
+
+      <div id="rumpf">
+        <table border="1">
+          <tr>
+            <td valign="top" style="top:2px;padding-left:20px;padding-top:5px;width:236px;">
+              <ul id="nav1"><li><a href="j_f_blumenbach/" title="J. F. Blumenbach"  >J. F. Blumenbach</a></li><li><a href="projekt/" title="Projektbeschreibung"  >Projektbeschreibung</a></li><li><a href="mitarbeiter/" title="Mitarbeiter"  >Mitarbeiter</a></li><li><a href="links/" title="Links"  >Links</a></li><li><a href="kontakt/" title="Kontakt"  >Kontakt</a></li><li><a href="intern/" title="Interner Bereich"  >Interner Bereich</a></li></ul>
+              </td>
+
+            <td valign="top" style="width:700px;height:500px"><div class="text" style="margin-top:10px;">
+                <p class="text">
+                  
+	<!--  CONTENT ELEMENT, uid:8/text [begin] -->
+		<a id="c8"></a>
+		<!--  Text: [begin] -->
+			<p class="bodytext">Das&nbsp;Vorhaben „Johann Friedrich Blumenbach&nbsp;–online“ &nbsp;ist ein Projekt im Rahmen des Akademienprogramms der <a href="http://www.akademienunion.de/" target="_blank" >Union der deutschen Akademien der Wissenschaften</a>, angesiedelt bei der <a href="http://www.uni-goettingen.de/de/sh/10150.html" target="_blank" >Akademie der Wissenschaften zu Göttingen</a>.<br /> <br /> Das Vorhaben umfasst<br /> </p><ul> <li>eine Neuausgabe von Blumenbachs Originaltexten nebst deren Übersetzungen und Folgeauflagen</li> <li>die Erschließung seiner Korrespondenz</li> <li>eine Rekonstruktion seiner Sammlung naturhistorischer Objekte</li> <li>eine Dokumentation der&nbsp;zeitgenössischen und späteren Rezeption Blumenbachs.</li></ul><p class="bodytext">&nbsp;</p>
+
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext">&nbsp;</p>
+		<!--  Text: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:8/text [end] -->
+		
+                </p><br /><br />
+              </div></td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="bottom">
+      </div>
+      <div id="footer">
+        <div id="footer-left">
+          <ul class="footerlist-left">			<li>
+            <a href="/impressum/" title="Impressum Akademie">Impressum Akademie</a></li>
+          </ul>
+        </div>
+
+      </div></td>
+  </tr>
+</table>
+
+
+
+
+</body>
+</html>	

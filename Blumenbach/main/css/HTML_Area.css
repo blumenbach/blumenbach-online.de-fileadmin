@@ -1,0 +1,77 @@
+.ueberschrift_gross {
+	font-weight: bold;
+	font-size: 21px;
+	margin-bottom: 15px;
+	color: #6B4D0C;
+}
+
+.ueberschrift_mittel {
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 12px;
+	color: #6B4D0C;
+}
+
+.ueberschrift_klein {
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: #6B4D0C;
+}
+
+/*.bild {
+	border: 1px solid #7B6534; 
+	background: white none repeat scroll 0% 0%; 
+	margin-top: 2px; 
+	margin-right: 15px; 
+	margin-bottom: 5px; 
+	padding: 2px;
+	width: 190px; 
+	line-height: 12px; 
+	-moz-background-clip: border; 
+	-moz-background-origin: padding; 
+	-moz-background-inline-policy: continuous;
+}
+*/
+.bild_unterschrift {
+	clear: both;
+	position: inherit;
+	margin-top: 1px; 
+	margin-right: 2px; 
+	float: left; 
+	font-size: 0.9em;
+	width: 200px;
+	padding: 2px;
+	color: #4E596D;
+}
+.bild_unterschrift_gross {
+	clear: both;
+	position: inherit;
+	margin-top: 1px; 
+	float: left; 
+	font-size: 0.9em;
+	width: 310px;
+	padding: 2px;
+	color: #4E596D;
+}
+
+.bild_unterschrift_rechts {
+	clear: both;
+	position: inherit;
+	margin-top: 1px; 
+	float: right; 
+	width: 190px;
+	font-size: 0.9em;
+	padding: 2px;
+	color: #4E596D;
+}
+.bild_unterschrift_rechts_gross {
+	clear: both;
+	position: inherit;
+	margin-top: 1px; 
+	float: right; 
+	width: 300px;
+	font-size: 0.9em;
+	padding: 2px;
+	color: #4E596D;
+}

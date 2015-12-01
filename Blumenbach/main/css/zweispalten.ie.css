@@ -1,0 +1,40 @@
+/*------------------------- 2 - Spalten Layout fuer Internet-Explorer -------------------------------------*/
+
+/*######## Navigation links ###########*/
+div#navelel1 {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-left: -1px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	padding: 1px;
+	padding-top: 4px;
+	padding-right: 1px;
+	padding-left: 10px;
+	width: 229px;
+	height: 22px;
+	text-align: left;
+	font-weight: bold;
+	border: 0px;
+}
+div#navelel1:first-child {
+	margin-top: 22px;
+}
+div#navelel2 {
+	padding-left: 25px;
+	margin-top: 0px;
+	margin-left: -1px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	padding-right: 1px;
+	width: 230px;
+	height: 17px;
+	text-align: left;
+	border: 0px;
+}
+a#navilink1:hover {
+	border: 0px;
+}
+a#navilink2:hover {
+	border: 0px;
+}

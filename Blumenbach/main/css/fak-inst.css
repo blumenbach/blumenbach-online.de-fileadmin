@@ -1,0 +1,518 @@
+/*------------------ Standard Aufbau (Header/Footer)-----------------------------*/
+ 
+* 
+{
+	margin: 			0px;
+	padding: 			0px;
+	border: 			none;
+}
+	
+body 
+{		
+	margin: 			0px;
+}
+		 
+img 
+{
+	border: 			0px;
+}
+		 
+br
+{
+	line-height: 		7px;
+}
+
+#logo_blind
+{
+	float:				left;
+	margin-right:		19px; 
+}
+
+#logo_druck, #titel_druck
+{
+	display:			none; 
+}
+		 
+#header_fak 
+{
+	height:				105px;
+	width:				1000px;
+	background-image:	url(http://www.uni-goettingen.de/img/header_fak_bg.png);
+	background-repeat:	repeat-x;
+	background-color:   #163776;
+	overflow:			hidden;	
+}
+
+#header_name 
+{
+	margin-left:		145px;
+	padding:			22px 0px 0px 0px;
+	font:				20px bold Arial, Helvetica, sans-serif;
+	color:				#FFFFFF;
+}
+
+#header_name a:hover {
+	text-decoration: none;
+}
+
+#header_name a {
+	font:				20px bold Arial, Helvetica, sans-serif;
+	color:				#FFFFFF;
+}
+
+#header_kooperation 
+{
+	float:				right;
+	width:				250px;
+	height:				105px;
+	background-image:	url(http://www.uni-goettingen.de/img/header_fak_right.png);
+	background-repeat:	no-repeat;
+	background-position:right;
+}
+
+#startlink
+{
+	background:			url(http://www.uni-goettingen.de/img/header_fak_left.png) no-repeat;	
+	float:				left;
+	height:				1px;
+	width:				1px;
+	padding-top:		164px;
+	padding-left:		122px;
+	margin-right:		18px;
+}
+		
+#zeile
+{
+	font-size:			5px;
+	height:				20px;
+	width:				1000px;
+	overflow:			hidden;
+	background-color:	#3F3C29;			/* Hintergrundfarbe der Zeile (rechts) */
+}
+			
+#zeilelinks
+{
+	background-color:	#262416;			/* Hintergrundfarbe der Zeile (links) */
+	float:				left;
+	width:				226px;
+	height:				18px;
+	padding-right:      10px;
+	padding-top: 		2px;
+	text-align:			right;
+}
+			
+#zeilerechts
+{
+	float:				right;
+	width:				315px;
+	height:				20px;
+	background-color:	#3F3C29;			/* Hintergrundfarbe der Zeile (rechts) */
+	text-align:			left;
+	padding-right:      5px;
+}
+			
+#zeilemitte
+{
+	margin-left: 		236px;
+	margin-right: 		320px;
+	background-color:	#3F3C29;			/* Hintergrundfarbe der Zeile (rechts) */
+	padding-left:		10px;
+	height:				18px;
+	padding-top: 		2px;
+}
+				
+#sizer
+{ 
+	width: 				104px;
+	height: 			16px;
+	background-repeat:	no-repeat;
+	float:				left;
+	margin-top: 		1px;
+}		
+			
+#leiste, #leisteneu
+{
+	height:				228px;
+	width:				1000px;
+	background-repeat:	no-repeat;
+	clear:				both;
+}
+
+#leisteneu
+{
+	height:				125px;
+}
+
+#footer
+{
+	width:				1000px;
+	height:				40px;
+	background-color:   #163776;
+}
+			
+#footer-left
+{
+	float: 				left;
+  	width: 				50%;
+	padding-top:		13px;
+	padding-left:		12px;
+	text-align:			left;
+}
+			
+#footer-right
+{
+	padding-top:		13px;
+	padding-right:		12px;
+	text-align:			right;
+}
+
+/*----------------------- Hauptnavigation -----------------------*/
+
+#navigation
+{
+	margin-top:			17px;
+    list-style-type: 	none;
+}
+	
+#navigation li
+{
+    margin: 			0px 5px 0px 0px;
+    float: 				left;
+}	
+			
+#navigation a
+{
+	display:			block;
+    font-family: 		Arial, Helvetica, sans-serif;
+	font-size: 			15px;
+	font-weight:		bold;
+	color: 				#FFFFFF;
+	text-decoration:	none;
+	padding:			2px 5px 2px 5px;
+}	
+
+#navigation a:hover
+{
+	display:			block;
+	background-image:	url(http://www.uni-goettingen.de/img/nav-hover.gif);
+	background-repeat:	repeat-x;
+}	
+
+/*------------------- Pfadzeile (#zeile im Layout - oben) --------------------*/
+
+#pfad
+{
+	list-style-type: none;
+}
+	
+#pfad li
+{
+	background-image:	url(http://www.uni-goettingen.de/img/pfadpfeil.gif);
+	background-repeat:	no-repeat;
+	padding-left:		10px;
+    margin: 			0px 0px 0px 5px;
+    float: 				left;
+}	
+
+#pfad a
+{
+    font-family: 		Arial, Helvetica, sans-serif;
+	font-size: 			12px;
+	font-weight: 		normal;
+	color: 				#FFFFFF;
+	text-decoration:	none;
+}	
+			
+#pfad a:hover
+{
+	text-decoration:	underline;
+}	
+
+.suchbox
+{
+	width: 				91px;
+	height: 			12px;
+	font-family: 		Arial, Helvetica, sans-serif;
+	font-size: 			10px;
+	color:				#FFFFFF;							/* Suchbox - Schriftfarbe  */
+	background-color: 	#3F3C29;							/* Suchbox - Hintergrundfarbe */
+	border: 			1px solid #262416;					/* Suchbox - Rahmenfarbe */
+	vertical-align:		top;
+	margin-top:	 		2px;
+	margin-right: 		5px;
+}
+	
+.suchlink, .langlink
+{
+	vertical-align:		bottom;
+	font-size: 			11px;
+	font-weight:		bold;
+	color:				#FFFFFF;
+	vertical-align:		baseline;
+}
+
+.toolsep
+{
+ 	font-size:			12px; 
+	color:				#FFFFFF; 
+	font-weight:		bold; 
+	margin-left: 		7px;
+	margin-right: 		7px;
+}
+			
+#suchbutton
+{
+	vertical-align:		bottom;
+}
+	
+/*-------------------- Texte, Font, Linkstyle, ... -------------------------------*/
+				
+.boxueberschrift
+{
+	font-family:		Arial, Helvetica, sans-serif;
+	font-size:			16px;
+	font-weight:		bold;		
+	color:				#626262;
+}
+				
+.ueberschrift, .ueberschrift2
+{
+	font-family:		Arial, Helvetica, sans-serif;
+	/*font-size:			105%;*/
+	font-size:			13px;
+	font-weight:		bold;		
+	color:				#163776;
+}
+				
+.ueberschrift2
+{
+	color:				#626262;
+}
+				
+.ueberschrift a
+{
+	font-family:		Arial, Helvetica, sans-serif;
+	font-weight:		bold;		
+	color:				#163776;
+}
+					
+.ueberschrift a:hover
+{
+	text-decoration:	underline;
+}	
+				
+.text, .content, body, .text_fak_overview
+{
+	font-family:		Arial, Helvetica, sans-serif;
+	/*font-size:			86%;*/
+	font-size: 			12px;
+	font-weight:		normal;
+	line-height: 		16px;
+	color:				#434343;
+	overflow:			auto;
+}
+			
+table, tr, td
+{
+	font-family:		Arial, Helvetica, sans-serif;
+	font-weight:		normal;
+	line-height: 		16px;
+	color:				#434343;
+	overflow:			visible;
+	font-size:          12px;
+}			
+			
+.seite
+{
+	font-family:		Arial, Helvetica, sans-serif;
+	font-size:			11px;
+	font-weight:		normal;
+	color:				#FFFFFF;							/* Farbe f�r Aktuelle Seite */
+}
+			
+a, .newslink, .morelink
+{
+	font-family: 		Arial, Helvetica, sans-serif;
+	/*font-weight: 		bold;*/
+	color: 				#163776;
+	text-decoration:	none;
+	font-size:			12px;
+}
+			
+a:hover
+{
+	text-decoration: 	underline;
+}
+
+.morelink
+{
+	font-size:			12px;
+	font-weight: 		bold;
+}
+
+.newslink
+{
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+/*------------------ Form Styles (inputboxen, etc)	-----------------------------*/
+		
+input, select, textarea
+{
+	border: 			1px solid #969BA4;
+	background-color:	#FFFFFF;
+	color:				#4A4C4F;
+	font-family:		Arial, sans-serif;
+	/*font-size:			86%;*/
+	font-size: 			12px;
+	padding-left:		1px;
+	padding-right:		1px;
+}
+
+/*
+#rumpf span
+{
+	font-family:		Arial, Helvetica, sans-serif;
+	/*font-size:			99%;*/
+	/*font-size:			14px;*/
+	font-weight:		normal;
+	color:				#888888;
+}
+*/
+
+/*--------------------------- Listen (Linkllisten, etc) --------------------------*/			
+
+.linkmenu, .text ul, .content, .text_fak_overview ul
+{
+    margin: 			0px;
+    padding-left: 		16px;
+    list-style-image: 	url(http://www.uni-goettingen.de/img/linkpfeil.gif);
+	list-style-position:outside;
+	line-height: 		14px;
+	font-family: 		Arial, Helvetica, sans-serif;
+	font-weight: 		normal;
+	color: 				#434343;
+	text-decoration:	none;
+}
+			
+.linkmenu a, .text ul a, .content a, .text_fak_overview ul a
+{
+	color: 				#163776;
+}
+/* Klasse .content Uebrigbleibsel aus altem System*/			
+
+.text ul, .text li, .content, .text_fak_overview ul, .text_fak_overview li
+{
+	margin-left:		12px;
+}
+
+.content
+{
+	padding: 0px;
+}
+
+.txtlist
+{
+	margin: 10px 0px 10px 0px;
+}
+
+.text_fak_overview a
+{
+	/*background-image: url(http://www.uni-goettingen.de/img/linkpfeil.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left: 10px;
+    font-size:			96%;*/
+	font-size: 12px;
+	display:	block;
+}
+
+.linkmenu a
+{
+    font-weight:		normal;
+	/*font-size:			86%;*/
+	font-size:			12px;
+}
+
+.linkmenu li, .text ul li
+{
+    margin-bottom: 		5px;
+	margin-left: 		3px;
+}
+
+.linkmenu-big
+{
+    list-style-type:	none;
+	list-style-image: 	none;
+	list-style-position:outside;
+	line-height: 		16px;
+}
+			
+.linkmenu-big a
+{
+    font-weight:		normal;
+	/*font-size:			100%;*/
+	/*font-size:			14px;*/
+}
+
+.linkmenu-big li
+{
+    margin-bottom: 		5px;
+	margin-left: 		3px;
+}
+
+.datum
+{
+	font-family:		Arial, Helvetica, sans-serif;
+	/*font-size:			101%;*/
+	font-size:			14px;
+	font-weight:		normal;
+	color:				#888888;
+}
+				
+.footerlist-left, .footerlist-right
+{
+    list-style-type: 	none;
+}
+	
+.footerlist-left li 
+{
+    margin: 			0px 18px 0px 0px;
+    float: 				left;
+}	
+					
+.footerlist-right li
+{
+    margin: 			0px 0px 0px 19px;
+    float: 				right;
+}	
+					
+.footerlist-left a, .footerlist-right a, .footerlist_text
+{
+	font-family: 		Arial, Helvetica, sans-serif;
+	font-size: 			11px;
+	font-weight: 		normal;
+	color: 				#FFFFFF;
+}
+
+.footer-nolink a, .footer-nolink a:hover
+{
+	cursor:				text;
+	text-decoration:	none;
+}
+	
+/*-------------------------- Vom alten System ----------------------------*/
+
+#formforum .label
+{
+	width: 100px;
+	font-family: 		Arial, Helvetica, sans-serif;
+	font-size: 			11px;
+	color: 				#434343;
+}
+
+#formforum input, textarea
+{
+	 width:				310px;
+}

@@ -1,0 +1,69 @@
+    
+        
+       
+<table style="border: 1px solid black;margin: 1px" cellpadding="0" cellpadding="0">
+  <tr><td>
+       <div><img src="/fileadmin/Blumenbach/gfx/JFBlumenbach/BB-online_Bannerentwurf_Ammonit_1000_120.jpg">
+        </div>       
+      <!-- rote Zeile -->
+      <div style="margin:0px;padding:0px;padding-bottom:2px;width:1000px;background-color: rgb(252, 1, 72);">
+      <div id="zeilelinks" style="margin:0px;padding-top:2px;padding:0px;background-color: rgb(227, 0, 47);width: 236px;height:22px;">
+          <font
+style="font-size:12px;color:white;font-weight:bold;padding-right: 5px">Aktuelle Seite:</font>
+        </div>
+        <div id="zeilerechts" style="margin-left:0px;width:236px;background-color: rgb(252, 1, 72);">
+          <!-- <form name="sform" method="POST" action="/suche/"
+style="padding-top: 1px; float: left;">
+          <input id="mailformsword" name="sword" size="19"
+class="suchbox" style="background-color: rgb(255, 51, 122);" type="text">
+          <input type="hidden" id="mailformscols" name="scols"
+value="tt_content.header-bodytext-imagecaption">
+          <input type="hidden" name="submit" value="Search now!">
+          <input name="refid" value="10150" type="hidden">
+          <a href="javascript:document.sform.submit();" class="suchlink"
+style="padding-top: 1px;">Suche</a>
+          <a class="langlink" href="/en/10150.html">English</a>
+          </form>
+          -->
+        </div>
+        <div id="zeilemitte" style="background-color: rgb(252, 1, 72);">
+          <div id="pfad" style="color:white;font-weight:bold">
+            <!--###BREADCRUMB-MARKER###-->...<!--###BREADCRUMB-MARKER###-->
+          </div>
+
+        </div>       
+          <img
+style="position:absolute;z-index:1000;margin-0px;padding:0px;width:1000px;height:1px;" src="/fileadmin/Blumenbach/gfx/JFBlumenbach/banner-abschluss-unten.gif" />
+          <!-- /rote Zeile -->
+       </div>
+      
+      </div>
+      </td>
+  </tr>
+  <tr>
+    <td valign="top"> <div id="top"></div>
+      <div id="rumpf">
+        <table border="1">
+          <tr>
+            <td valign="top" style="top:2px;padding-left:20px;padding-top:5px;width:236px;">
+              <!--###LEFT-MARKER###-->...              <!--###LEFT-MARKER###-->
+              </td>
+            <td valign="top" style="width:700px;height:500px"><div class="text" style="margin-top:10px;">
+                <p class="text">
+                  <!--###INHALT-MARKER###-->...<!--###INHALT-MARKER###-->
+                </p><br /><br />
+              </div></td>
+          </tr>
+        </table>
+      </div>
+      <div id="bottom">
+      </div>
+      <div id="footer">
+        <div id="footer-left">
+          <ul class="footerlist-left">			<li>
+            <a href="/impressum/" title="Impressum Akademie">Impressum Akademie</a></li>
+          </ul>
+        </div>
+      </div></td>
+  </tr>
+</table>

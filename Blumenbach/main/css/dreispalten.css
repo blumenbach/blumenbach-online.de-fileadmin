@@ -1,0 +1,125 @@
+/*--------------------------- Template startseite.tpl -----------------------------*/
+
+/*--------------------------------- Bildleiste -----------------------------------*/
+
+#leiste
+{
+	background-image:	url(http://www.uni-goettingen.de/img/zeile-default.jpg);
+}
+	
+/*----------------------------- Aufbau in 3 Spalten -------------------------------*/
+
+#top
+{
+	height: 			6px;
+	width: 				1000px;
+	background-image:	url(http://www.uni-goettingen.de/img/top-3-spalten.gif);
+	background-repeat:	no-repeat;
+	overflow:			hidden;
+}
+		 
+#bottom
+{
+	width: 				1000px;
+	height: 			6px;
+	background-image:	url(http://www.uni-goettingen.de/img/bottom-3-spalten.gif);
+	background-repeat:	no-repeat;
+	overflow:			hidden;
+}
+	
+#rumpf
+{
+	width:				1000px;
+	background-color:	#CECECE;
+	background-image:	url(http://www.uni-goettingen.de/img/bg-3-spalten.gif);
+	background-repeat:	repeat-y;
+	overflow:			auto;
+}
+			
+#linkespalte
+{
+	float:				left;
+	width:				204px;
+	min-height:			100%;
+	padding:     	   	6px 16px 20px 16px;
+}
+
+#rechtespalte
+{
+	float:				right;
+	min-height:		100%;
+	padding:     	6px 16px 20px 16px;
+}
+			
+#mittelspalte
+{
+  vertical-align: top;
+  margin-left:		237px;
+	margin-right:       300px;
+	min-height:			100%;
+	padding:			6px 15px 20px 15px;
+}
+#mittelspalte ul
+{
+  margin-top:		10px;
+  margin-left:		10px;
+  padding:			5px;
+}
+
+/*-------------------------------- Klassen für Inhaltslayout ---------------------------*/
+				
+.neuigkeiten
+{
+	width:				85%;
+	margin-left:		auto;
+	margin-right:		auto;
+	text-align:			left;
+	display:			table;
+	margin-bottom:		30px;
+}
+
+.mitteilungenlinks
+{
+	text-align:			left;
+	margin-right:		25px;
+	width:				195px;
+}
+				
+.mitteilungenrechts
+{
+	margin:				auto;
+	width:				45%;
+	float:				right;
+	text-align:			left;
+}
+				
+.imagefloatleft
+{
+	float:				left;
+	margin-right: 		8px;
+}
+				
+.imagefloatright
+{
+	float:				right;
+	margin-left: 		8px;
+}
+
+/********************************* Spezielle Formatierungen ***************************************/
+#newslinkleft a, #newslinkright a
+{
+	font-family:		Arial, Helvetica, sans-serif;
+	font-size:			13px;
+	font-weight:		bold;		
+	color:				#163776;
+}
+
+#newslinkleft 
+{
+	float:				left;
+}
+
+#newslinkright
+{
+	float:				right;
+}
